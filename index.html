@@ -1,1 +1,28 @@
-
+<script src="script.js"></script>
+<!-- Title -->
+<div class="titleContainer">
+  <div>
+    <h1 style="float: left; position: relative;top:-5px; color:var(--col3)">Latin</h1>
+  </div>
+  <div>
+    <h1 style="float: left; position: relative; top: 5px; color:var(--col2)">Lingo</h1>
+  </div>
+</div>
+<!-- -->
+<div class="divide"></div>
+<!-- Difficulty Selection -->
+<!--<div class="sentenceContainer">
+  <a class="wrdButton" href="#" type="wrdButton">Easy</a> <p style="position: relative; bottom: 3px">|</p> <a class="wrdButton" href="#" type="wrdButton">Medium</a> <p style="position: relative; bottom: 3px">|</p> <a class="wrdButton" href="#" type="wrdButton">Hard</a>
+</div>-->
+<div class="sentenceContainer">
+  <a class="wrdButton" href="#" type="wrdButton" onClick = "askWordQuestion()" style="display: block" id="goBtn"><i>Go!</i></a>
+</div>
+<!-- -->
+<div class="divide"></div>
+<div class="sentenceContainer">
+<p id="sentenceContainer"></p>
+</div>
+<div class="sentenceContainer">
+<p id="wordContainer"></p>
+</div>
+<div id="problemCenter" class="sentenceContainer"></div>
